@@ -17,10 +17,6 @@ Aliases
   * `ll`  lists all files.
   * `lr` lists recursively.
 
-### File downloads
-
-  * `get` is short for ( `aria2c` || `axel` || `wget` || `curl` ).
-
 ### Resource usage
 
   * `df` reports file system disk usage with human-readable sizes.
