@@ -2,9 +2,11 @@
 # Utility Functions and Options
 #
 
-# Set less or more as the default pager.
+# Set most, less or more as the default pager.
 if (( ! ${+PAGER} )); then
-  if (( ${+commands[less]} )); then
+  if (( ${+commands[most]} )); then
+    export PAGER=most
+  elif (( ${+commands[less]} )); then
     export PAGER=less
   else
     export PAGER=more

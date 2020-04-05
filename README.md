@@ -5,6 +5,8 @@ Utility aliases and functions.
 
 Adds colour to `ls`, `grep` and `less`.
 
+Sets PAGER to `most`, `less` or `more`.
+
 Aliases
 -------
 
