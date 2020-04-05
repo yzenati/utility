@@ -11,8 +11,8 @@ Aliases
 ### ls
 
   * `ls` lists directories first (GNU only) and with colour (applies to all aliases below).
-  * `ll` lists with long format and human-readable sizes (applies to all aliases below).
-  * `l`  lists all files.
+  * `l` lists with long format and human-readable sizes (applies to all aliases below).
+  * `ll`  lists all files.
   * `lr` lists recursively.
 
 ### File downloads

@@ -66,9 +66,9 @@ fi
 # ls Aliases
 #
 
-alias ll='ls -lh'         # long format and human-readable sizes
-alias l='ll -A'           # long format, all files
-alias lr='ll -R'          # long format, recursive
+alias l='ls -lh'         # long format and human-readable sizes
+alias ll='l -A'           # long format, all files
+alias lr='l -R'          # long format, recursive
 
 
 #
