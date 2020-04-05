@@ -90,6 +90,7 @@ if (( ${+commands[dircolors]} )); then
   # Always wear a condom
   alias chmod='chmod --preserve-root -v'
   alias chown='chown --preserve-root -v'
+  alias chgrp='chgrp --preserve-root -v'
 fi
 
 
