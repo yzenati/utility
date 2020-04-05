@@ -13,12 +13,7 @@ Aliases
   * `ls` lists directories first (GNU only) and with colour (applies to all aliases below).
   * `ll` lists with long format and human-readable sizes (applies to all aliases below).
   * `l`  lists all files.
-  * `lm` lists all files using pager.
   * `lr` lists recursively.
-  * `lx` lists sorted by extension (GNU only).
-  * `lk` lists sorted by largest file size last.
-  * `lt` lists sorted by newest modification time last.
-  * `lc` lists sorted by newest status change (ctime) last.
 
 ### File downloads
 
