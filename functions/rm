@@ -1,5 +1,5 @@
-rmtrashCommand = ${+commands[rmtrash]};
-safe-rmCommand = ${+commands[safe-rm]};
+rmtrashCommand = (( ${+commands[rmtrash]} ));
+safe-rmCommand = (( ${+commands[safe-rm]} ));
 
 if ( rmtrashCommand  ); then
   if ( safe-rmCommand ); then
