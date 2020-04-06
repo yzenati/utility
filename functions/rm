@@ -1,5 +1,5 @@
-rmtrashCommandExists=(( ${+commands[rmtrash]} ));
-safe-rmCommandExists=(( ${+commands[safe-rm]} ));
+rmtrashCommandExists=(( $+commands[rmtrash] ));
+safe-rmCommandExists=(( $+commands[safe-rm] ));
 
 if ( rmtrashCommand  ); then
   if ( safe-rmCommand ); then
