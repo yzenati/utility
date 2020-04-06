@@ -1,13 +1,10 @@
-rmtrashCommandExists=(( $+commands[rmtrash] ));
-safe-rmCommandExists=(( $+commands[safe-rm] ));
-
-if ( rmtrashCommand  ); then
-  if ( safe-rmCommand ); then
+if (( $+commands[rmtrash] )); then
+  if (( $+commands[safe-rm] )); then
     echo 'Use `rmtrash`, `safe-rm`, or the full path i.e. `/bin/rm`';
   else
     echo 'Use `rmtrash` or the full path i.e. `/bin/rm`';
   fi
-elif ( safe-rmCommand ); then
+elif (( $+commands[safe-rm] )); then
   echo 'Use `safe-rm`, or the full path i.e. `/bin/rm`';
 else
   command rm "$@"
