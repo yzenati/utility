@@ -26,7 +26,7 @@ Aliases
 
   * `chmod` changes file mode verbosely, not operating from `/` (GNU only).
   * `chown` changes file owner verbosely, not operating from `/` (GNU only).
-  * `chgrp` changes file owner verbosely, not operating from `/` (GNU only).
+  * `chgrp` changes file group verbosely, not operating from `/` (GNU only).
 
 ### Misc
 
