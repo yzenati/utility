@@ -1,0 +1,14 @@
+rmtrashCommand = ${+commands[rmtrash]};
+safe-rmCommand = ${+commands[safe-rm]};
+
+if ( rmtrashCommand  ); then
+  if ( safe-rmCommand ); then
+    echo 'Use `rmtrash`, `safe-rm`, or the full path i.e. `/bin/rm`';
+  else
+    echo 'Use `rmtrash` or the full path i.e. `/bin/rm`';
+  fi
+elif ( safe-rmCommand ); then
+  echo 'Use `safe-rm`, or the full path i.e. `/bin/rm`';
+else
+  command rm "$@"
+fi

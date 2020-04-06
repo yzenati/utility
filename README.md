@@ -31,3 +31,4 @@ Aliases
 ### Misc
 
   * `mkcd` creates and changes to the given directory.
+  * `rm` shows message to use rmtrash or/and safe-rm if available, if not, execute the native rm command.
